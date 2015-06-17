@@ -1,0 +1,11 @@
+CREATE TABLE details
+(
+ rollno VARCHAR(30) NOT NULL,
+ name VARCHAR(30) NOT NULL,
+ dept VARCHAR(10) NOT NULL,
+ email VARCHAR(50) NOT NULL,
+ join_year INT(4) NOT NULL,
+ password VARCHAR(40) NOT NULL,
+ photo VARCHAR(30) NOT NULL,
+ regno INT (20)
+);
